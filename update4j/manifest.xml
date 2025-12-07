@@ -14,7 +14,7 @@
         <file
                 path="cras-app-1.0.0-all.jar"
                 uri="https://raw.githubusercontent.com/JUNIOR729116/ConectCRAS-update/main/update4j/cras-app-1.0.0-all.jar"
-                checksum="sha256:5272e07d3d31ebf86fb5e5124c02088013de502fcc6c934e6c8c6e499829fad3"/>
+                checksum="sha256:52722c7d3d1be8f6b5e2142cd028801d3e502fcc6c934e6c8c6e499829fad3"/>
     </files>
 
     <!-- Opcional: como relançar via update4j launcher -->
