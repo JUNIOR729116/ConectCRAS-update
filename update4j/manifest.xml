@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns="http://update4j.org/schema/configuration"
+               checkSignature="false">
+
+    <!-- Metadados básicos -->
+    <properties>
+        <property key="app.name" value="Conect CRAS"/>
+        <property key="app.version" value="1.0.0"/>
+        <property key="vendor" value="SEMASS"/>
+    </properties>
+
+    <!-- JAR principal publicado no repositório ConectCRAS-update -->
+    <files>
+        <file
+                path="cras-app-1.0.0-all.jar"
+                uri="https://raw.githubusercontent.com/JUNIOR729116/ConectCRAS-update/main/update4j/cras-app-1.0.0-all.jar"
+                checksum="sha256:5272e07d3d31ebf86fb5e5124c02088013de502fcc6c934e6c8c6e499829fad3"/>
+    </files>
+
+    <!-- Opcional: como relançar via update4j launcher -->
+    <launch>
+        <application mainClass="br.semas.sistemas.gestao.cras.app.App">
+            <classpath>
+                <file path="cras-app-1.0.0-all.jar"/>
+            </classpath>
+            <jvmArgs>
+                <arg>-Dfile.encoding=UTF-8</arg>
+                <arg>-Duser.timezone=America/Sao_Paulo</arg>
+            </jvmArgs>
+        </application>
+    </launch>
+</configuration>
