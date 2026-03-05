@@ -11,7 +11,8 @@
     <files>
         <file path="C:/ConectCRAS/app/cras-app.jar"
               uri="https://github.com/JUNIOR729116/ConectCRAS-update/releases/download/v1.0.0/cras-app-1.0.0-all.jar"
-              checksum="ebd05809"/>
+              checksum="ebd05809"
+              size="60448525"/>
     </files>
 
     <launch>
